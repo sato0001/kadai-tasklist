@@ -18,7 +18,7 @@ public class TaskValidator {
         return errors;
     }
 
-    // メッセージの必須入力チェック
+    // タスク名の必須入力チェック
     private static String _validateContent(String content) {
         if(content == null || content.equals("")) {
             return "タスク名を入力してください。";
